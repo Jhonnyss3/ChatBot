@@ -1,0 +1,130 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\projects\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FE421BBC-03F1-4E2A-8F4F-99377DC49735}|src\\back-end\\ChatBot.API\\ChatBot.API.csproj|c:\\projects\\src\\back-end\\chatbot.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE421BBC-03F1-4E2A-8F4F-99377DC49735}|src\\back-end\\ChatBot.API\\ChatBot.API.csproj|solutionrelative:src\\back-end\\chatbot.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81D103DE-553B-42FC-AD9F-44FB5B664F1F}|src\\back-end\\ChatBot.Infrastructure\\ChatBot.Infrastructure.csproj|c:\\projects\\src\\back-end\\chatbot.infrastructure\\chatresponder\\basicchatresponder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81D103DE-553B-42FC-AD9F-44FB5B664F1F}|src\\back-end\\ChatBot.Infrastructure\\ChatBot.Infrastructure.csproj|solutionrelative:src\\back-end\\chatbot.infrastructure\\chatresponder\\basicchatresponder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F972A89D-6116-4F8A-AE3D-60F6362633C2}|src\\back-end\\ChatBot.Domain\\ChatBot.Domain.csproj|c:\\projects\\src\\back-end\\chatbot.domain\\interfaces\\ichatresponder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F972A89D-6116-4F8A-AE3D-60F6362633C2}|src\\back-end\\ChatBot.Domain\\ChatBot.Domain.csproj|solutionrelative:src\\back-end\\chatbot.domain\\interfaces\\ichatresponder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F56A108-4FC0-4FB3-9C80-85225DCB105D}|src\\back-end\\ChatBot.Application\\ChatBot.Application.csproj|c:\\projects\\src\\back-end\\chatbot.application\\chat\\chatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F56A108-4FC0-4FB3-9C80-85225DCB105D}|src\\back-end\\ChatBot.Application\\ChatBot.Application.csproj|solutionrelative:src\\back-end\\chatbot.application\\chat\\chatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE421BBC-03F1-4E2A-8F4F-99377DC49735}|src\\back-end\\ChatBot.API\\ChatBot.API.csproj|c:\\projects\\src\\back-end\\chatbot.api\\dtos\\usermessagerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE421BBC-03F1-4E2A-8F4F-99377DC49735}|src\\back-end\\ChatBot.API\\ChatBot.API.csproj|solutionrelative:src\\back-end\\chatbot.api\\dtos\\usermessagerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F56A108-4FC0-4FB3-9C80-85225DCB105D}|src\\back-end\\ChatBot.Application\\ChatBot.Application.csproj|c:\\projects\\src\\back-end\\chatbot.application\\chat\\ichatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F56A108-4FC0-4FB3-9C80-85225DCB105D}|src\\back-end\\ChatBot.Application\\ChatBot.Application.csproj|solutionrelative:src\\back-end\\chatbot.application\\chat\\ichatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\projects\\src\\back-end\\ChatBot.API\\Program.cs",
+              "RelativeDocumentMoniker": "src\\back-end\\ChatBot.API\\Program.cs",
+              "ToolTip": "C:\\projects\\src\\back-end\\ChatBot.API\\Program.cs",
+              "RelativeToolTip": "src\\back-end\\ChatBot.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T02:06:47.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BasicChatResponder.cs",
+              "DocumentMoniker": "C:\\projects\\src\\back-end\\ChatBot.Infrastructure\\ChatResponder\\BasicChatResponder.cs",
+              "RelativeDocumentMoniker": "src\\back-end\\ChatBot.Infrastructure\\ChatResponder\\BasicChatResponder.cs",
+              "ToolTip": "C:\\projects\\src\\back-end\\ChatBot.Infrastructure\\ChatResponder\\BasicChatResponder.cs",
+              "RelativeToolTip": "src\\back-end\\ChatBot.Infrastructure\\ChatResponder\\BasicChatResponder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T02:06:30.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IChatResponder.cs",
+              "DocumentMoniker": "C:\\projects\\src\\back-end\\ChatBot.Domain\\Interfaces\\IChatResponder.cs",
+              "RelativeDocumentMoniker": "src\\back-end\\ChatBot.Domain\\Interfaces\\IChatResponder.cs",
+              "ToolTip": "C:\\projects\\src\\back-end\\ChatBot.Domain\\Interfaces\\IChatResponder.cs",
+              "RelativeToolTip": "src\\back-end\\ChatBot.Domain\\Interfaces\\IChatResponder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T02:05:33.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChatService.cs",
+              "DocumentMoniker": "C:\\projects\\src\\back-end\\ChatBot.Application\\Chat\\ChatService.cs",
+              "RelativeDocumentMoniker": "src\\back-end\\ChatBot.Application\\Chat\\ChatService.cs",
+              "ToolTip": "C:\\projects\\src\\back-end\\ChatBot.Application\\Chat\\ChatService.cs",
+              "RelativeToolTip": "src\\back-end\\ChatBot.Application\\Chat\\ChatService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T02:05:01.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IChatService.cs",
+              "DocumentMoniker": "C:\\projects\\src\\back-end\\ChatBot.Application\\Chat\\IChatService.cs",
+              "RelativeDocumentMoniker": "src\\back-end\\ChatBot.Application\\Chat\\IChatService.cs",
+              "ToolTip": "C:\\projects\\src\\back-end\\ChatBot.Application\\Chat\\IChatService.cs",
+              "RelativeToolTip": "src\\back-end\\ChatBot.Application\\Chat\\IChatService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T02:03:39.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserMessageRequest.cs",
+              "DocumentMoniker": "C:\\projects\\src\\back-end\\ChatBot.API\\DTOs\\UserMessageRequest.cs",
+              "RelativeDocumentMoniker": "src\\back-end\\ChatBot.API\\DTOs\\UserMessageRequest.cs",
+              "ToolTip": "C:\\projects\\src\\back-end\\ChatBot.API\\DTOs\\UserMessageRequest.cs",
+              "RelativeToolTip": "src\\back-end\\ChatBot.API\\DTOs\\UserMessageRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T02:01:59.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

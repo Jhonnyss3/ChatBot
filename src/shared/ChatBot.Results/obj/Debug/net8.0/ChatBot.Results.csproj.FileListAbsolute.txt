@@ -1,0 +1,11 @@
+C:\projects\src\shared\ChatBot.Results\bin\Debug\net8.0\ChatBot.Results.deps.json
+C:\projects\src\shared\ChatBot.Results\bin\Debug\net8.0\ChatBot.Results.dll
+C:\projects\src\shared\ChatBot.Results\bin\Debug\net8.0\ChatBot.Results.pdb
+C:\projects\src\shared\ChatBot.Results\obj\Debug\net8.0\ChatBot.Results.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\src\shared\ChatBot.Results\obj\Debug\net8.0\ChatBot.Results.AssemblyInfoInputs.cache
+C:\projects\src\shared\ChatBot.Results\obj\Debug\net8.0\ChatBot.Results.AssemblyInfo.cs
+C:\projects\src\shared\ChatBot.Results\obj\Debug\net8.0\ChatBot.Results.csproj.CoreCompileInputs.cache
+C:\projects\src\shared\ChatBot.Results\obj\Debug\net8.0\ChatBot.Results.dll
+C:\projects\src\shared\ChatBot.Results\obj\Debug\net8.0\refint\ChatBot.Results.dll
+C:\projects\src\shared\ChatBot.Results\obj\Debug\net8.0\ChatBot.Results.pdb
+C:\projects\src\shared\ChatBot.Results\obj\Debug\net8.0\ref\ChatBot.Results.dll

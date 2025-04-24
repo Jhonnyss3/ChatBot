@@ -1,0 +1,18 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build
+bin/
+obj/
+
+# ASP.NET secrets
+secrets.json
+
+# Node / Angular (se estiver usando)
+node_modules/
+dist/
+.env

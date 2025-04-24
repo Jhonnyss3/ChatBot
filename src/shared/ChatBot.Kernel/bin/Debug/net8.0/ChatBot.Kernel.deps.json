@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ChatBot.Kernel/1.0.0": {
+        "runtime": {
+          "ChatBot.Kernel.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ChatBot.Kernel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,15 @@
+C:\projects\src\back-end\ChatBot.Infrastructure\obj\Debug\net8.0\ChatBot.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\src\back-end\ChatBot.Infrastructure\obj\Debug\net8.0\ChatBot.Infrastructure.AssemblyInfoInputs.cache
+C:\projects\src\back-end\ChatBot.Infrastructure\obj\Debug\net8.0\ChatBot.Infrastructure.AssemblyInfo.cs
+C:\projects\src\back-end\ChatBot.Infrastructure\obj\Debug\net8.0\ChatBot.Infrastructure.csproj.CoreCompileInputs.cache
+C:\projects\src\back-end\ChatBot.Infrastructure\bin\Debug\net8.0\ChatBot.Infrastructure.deps.json
+C:\projects\src\back-end\ChatBot.Infrastructure\bin\Debug\net8.0\ChatBot.Infrastructure.dll
+C:\projects\src\back-end\ChatBot.Infrastructure\bin\Debug\net8.0\ChatBot.Infrastructure.pdb
+C:\projects\src\back-end\ChatBot.Infrastructure\bin\Debug\net8.0\ChatBot.Domain.dll
+C:\projects\src\back-end\ChatBot.Infrastructure\bin\Debug\net8.0\ChatBot.Domain.pdb
+C:\projects\src\back-end\ChatBot.Infrastructure\obj\Debug\net8.0\ChatBot.Infrastructure.csproj.AssemblyReference.cache
+C:\projects\src\back-end\ChatBot.Infrastructure\obj\Debug\net8.0\ChatBot..563A6A18.Up2Date
+C:\projects\src\back-end\ChatBot.Infrastructure\obj\Debug\net8.0\ChatBot.Infrastructure.dll
+C:\projects\src\back-end\ChatBot.Infrastructure\obj\Debug\net8.0\refint\ChatBot.Infrastructure.dll
+C:\projects\src\back-end\ChatBot.Infrastructure\obj\Debug\net8.0\ChatBot.Infrastructure.pdb
+C:\projects\src\back-end\ChatBot.Infrastructure\obj\Debug\net8.0\ref\ChatBot.Infrastructure.dll

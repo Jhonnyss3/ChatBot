@@ -1,0 +1,15 @@
+C:\projects\src\back-end\ChatBot.Application\obj\Debug\net8.0\ChatBot.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\src\back-end\ChatBot.Application\obj\Debug\net8.0\ChatBot.Application.AssemblyInfoInputs.cache
+C:\projects\src\back-end\ChatBot.Application\obj\Debug\net8.0\ChatBot.Application.AssemblyInfo.cs
+C:\projects\src\back-end\ChatBot.Application\obj\Debug\net8.0\ChatBot.Application.csproj.CoreCompileInputs.cache
+C:\projects\src\back-end\ChatBot.Application\bin\Debug\net8.0\ChatBot.Application.deps.json
+C:\projects\src\back-end\ChatBot.Application\bin\Debug\net8.0\ChatBot.Application.dll
+C:\projects\src\back-end\ChatBot.Application\bin\Debug\net8.0\ChatBot.Application.pdb
+C:\projects\src\back-end\ChatBot.Application\bin\Debug\net8.0\ChatBot.Domain.dll
+C:\projects\src\back-end\ChatBot.Application\bin\Debug\net8.0\ChatBot.Domain.pdb
+C:\projects\src\back-end\ChatBot.Application\obj\Debug\net8.0\ChatBot.Application.csproj.AssemblyReference.cache
+C:\projects\src\back-end\ChatBot.Application\obj\Debug\net8.0\ChatBot..83C85118.Up2Date
+C:\projects\src\back-end\ChatBot.Application\obj\Debug\net8.0\ChatBot.Application.dll
+C:\projects\src\back-end\ChatBot.Application\obj\Debug\net8.0\refint\ChatBot.Application.dll
+C:\projects\src\back-end\ChatBot.Application\obj\Debug\net8.0\ChatBot.Application.pdb
+C:\projects\src\back-end\ChatBot.Application\obj\Debug\net8.0\ref\ChatBot.Application.dll
