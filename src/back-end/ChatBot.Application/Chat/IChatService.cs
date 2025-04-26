@@ -1,9 +1,7 @@
-﻿// ChatBot.Application/Chat/IChatService.cs
-namespace ChatBot.Application.Chat
+﻿namespace ChatBot.Application.Chat
 {
     public interface IChatService
     {
-        Task<string> HandleMessageAsync(string message);
+        Task<(string response, string sessionId)> ProcessMessageAsync(string message, string? sessionId = null);
     }
 }
-

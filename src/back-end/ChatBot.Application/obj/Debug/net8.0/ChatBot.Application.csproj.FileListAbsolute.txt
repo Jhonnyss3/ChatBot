@@ -13,3 +13,4 @@ C:\projects\src\back-end\ChatBot.Application\obj\Debug\net8.0\ChatBot.Applicatio
 C:\projects\src\back-end\ChatBot.Application\obj\Debug\net8.0\refint\ChatBot.Application.dll
 C:\projects\src\back-end\ChatBot.Application\obj\Debug\net8.0\ChatBot.Application.pdb
 C:\projects\src\back-end\ChatBot.Application\obj\Debug\net8.0\ref\ChatBot.Application.dll
+C:\projects\src\back-end\ChatBot.Application\obj\Debug\net8.0\ChatBot.Application.sourcelink.json

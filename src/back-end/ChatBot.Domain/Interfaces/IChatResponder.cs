@@ -1,7 +1,11 @@
-﻿namespace ChatBot.Domain.Interfaces;
+﻿using System.Threading.Tasks;
+using ChatBot.Domain.Models;
 
-public interface IChatResponder
+namespace ChatBot.Domain.Interfaces
 {
-    Task<string> RespondAsync(string message);
+    public interface IChatResponder
+    {
+        Task<string> RespondAsync(string message, string? sessionId = null);
+        
+    }
 }
-

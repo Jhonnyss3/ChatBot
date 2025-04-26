@@ -1,15 +1,12 @@
 ﻿using ChatBot.Domain.Interfaces;
 
-namespace ChatBot.Infrastructure.ChatResponder;
-
-public class BasicChatResponder : IChatResponder
+namespace ChatBot.Infrastructure.ChatResponder
 {
-    public Task<string> RespondAsync(string message)
+    public class BasicChatResponder : IChatResponder
     {
-        if (message.ToLower().Contains("oi"))
-            return Task.FromResult("Olá! Como posso te ajudar hoje?");
-        else
+        public Task<string> RespondAsync(string message, string? sessionId = null)
+        {
             return Task.FromResult($"Você disse: {message}");
+        }
     }
 }
-

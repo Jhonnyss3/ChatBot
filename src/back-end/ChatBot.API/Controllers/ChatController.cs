@@ -1,8 +1,7 @@
 ﻿using Chat.Bot.API.DTOs;
+using ChatBot.API.DTOs;
 using ChatBot.Application.Chat;
 using Microsoft.AspNetCore.Mvc;
-
-namespace Chat.Bot.API.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
@@ -15,10 +14,13 @@ public class ChatController : ControllerBase
         _chatService = chatService;
     }
 
-    [HttpPost]
-    public async Task<IActionResult> Post([FromBody] UserMessageRequest request)
+    [HttpPost("message")]
+    public async Task<IActionResult> SendMessage([FromBody] UserMessageRequest request)
     {
-        var response = await _chatService.HandleMessageAsync(request.Message);
-        return Ok(new ChatResponseDto { Response = response });
+        if (string.IsNullOrWhiteSpace(request.Message))
+            return BadRequest("Mensagem não pode ser vazia.");
+
+        var (response, sessionId) = await _chatService.ProcessMessageAsync(request.Message, request.SessionId);
+        return Ok(new ChatResponseDto { Response = response, SessionId = sessionId });
     }
 }

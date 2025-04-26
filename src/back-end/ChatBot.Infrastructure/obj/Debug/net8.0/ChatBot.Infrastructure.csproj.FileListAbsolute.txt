@@ -13,3 +13,4 @@ C:\projects\src\back-end\ChatBot.Infrastructure\obj\Debug\net8.0\ChatBot.Infrast
 C:\projects\src\back-end\ChatBot.Infrastructure\obj\Debug\net8.0\refint\ChatBot.Infrastructure.dll
 C:\projects\src\back-end\ChatBot.Infrastructure\obj\Debug\net8.0\ChatBot.Infrastructure.pdb
 C:\projects\src\back-end\ChatBot.Infrastructure\obj\Debug\net8.0\ref\ChatBot.Infrastructure.dll
+C:\projects\src\back-end\ChatBot.Infrastructure\obj\Debug\net8.0\ChatBot.Infrastructure.sourcelink.json

@@ -1,6 +1,8 @@
-﻿namespace Chat.Bot.API.DTOs;
-
-public class UserMessageRequest
+﻿namespace ChatBot.API.DTOs
 {
-    public string Message { get; set; }
+    public class UserMessageRequest
+    {
+        public string Message { get; set; }
+        public string? SessionId { get; set; }
+    }
 }

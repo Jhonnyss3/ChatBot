@@ -9,3 +9,4 @@ C:\projects\src\back-end\ChatBot.Domain\obj\Debug\net8.0\ChatBot.Domain.dll
 C:\projects\src\back-end\ChatBot.Domain\obj\Debug\net8.0\refint\ChatBot.Domain.dll
 C:\projects\src\back-end\ChatBot.Domain\obj\Debug\net8.0\ChatBot.Domain.pdb
 C:\projects\src\back-end\ChatBot.Domain\obj\Debug\net8.0\ref\ChatBot.Domain.dll
+C:\projects\src\back-end\ChatBot.Domain\obj\Debug\net8.0\ChatBot.Domain.sourcelink.json

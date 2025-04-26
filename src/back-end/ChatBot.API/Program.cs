@@ -1,6 +1,8 @@
+using ChatBot.Application.Services;
 using ChatBot.Application.Chat;
 using ChatBot.Domain.Interfaces;
 using ChatBot.Infrastructure.ChatResponder;
+using ChatBot.Infrastructure.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,7 +13,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IChatService, ChatService>();
-builder.Services.AddScoped<IChatResponder, BasicChatResponder>();
+builder.Services.AddScoped<IChatResponder, ContextualChatResponder>();
+builder.Services.AddSingleton<IChatSessionService, InMemoryChatSessionService>();
 
 
 var app = builder.Build();

@@ -40,3 +40,4 @@ C:\projects\src\back-end\ChatBot.API\bin\Debug\net8.0\ChatBot.Infrastructure.dll
 C:\projects\src\back-end\ChatBot.API\bin\Debug\net8.0\ChatBot.Application.pdb
 C:\projects\src\back-end\ChatBot.API\bin\Debug\net8.0\ChatBot.Infrastructure.pdb
 C:\projects\src\back-end\ChatBot.API\bin\Debug\net8.0\ChatBot.Domain.pdb
+C:\projects\src\back-end\ChatBot.API\obj\Debug\net8.0\ChatBot.API.sourcelink.json

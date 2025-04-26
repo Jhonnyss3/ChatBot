@@ -1,15 +1,15 @@
 [
   {
-    "ContainingType": "Chat.Bot.API.Controllers.ChatController",
-    "Method": "Post",
-    "RelativePath": "api/Chat",
+    "ContainingType": "ChatController",
+    "Method": "SendMessage",
+    "RelativePath": "api/Chat/message",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "request",
-        "Type": "Chat.Bot.API.DTOs.UserMessageRequest",
+        "Type": "ChatBot.API.DTOs.UserMessageRequest",
         "IsRequired": true
       }
     ],

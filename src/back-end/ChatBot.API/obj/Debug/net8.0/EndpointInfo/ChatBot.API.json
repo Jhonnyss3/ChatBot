@@ -5,7 +5,7 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Chat": {
+    "/api/Chat/message": {
       "post": {
         "tags": [
           "Chat"
@@ -43,6 +43,10 @@
         "type": "object",
         "properties": {
           "message": {
+            "type": "string",
+            "nullable": true
+          },
+          "sessionId": {
             "type": "string",
             "nullable": true
           }
