@@ -48,20 +48,22 @@ export class AppComponent implements AfterViewChecked {
   }
 
   iniciarConversaPadrao() {
-    
+    // Limpa o chat e a sessão, começando do zero
     this.mensagens = [];
     this.sessionId = null;
   
-    
+    // Mensagem padrão
     const mensagemPadrao = 'Olá';
   
-    
+    // Adiciona a mensagem do usuário
     this.mensagens.push({ texto: mensagemPadrao, autor: 'user' });
   
     const req: UserMessageRequest = {
       message: mensagemPadrao,
       sessionId: this.sessionId
     };
+  
+    this.textoUsuario = ''; // Limpa o input, se necessário
   
     this.chatbotService.sendMessage(req).subscribe((res: ChatResponseDto) => {
       this.sessionId = res.sessionId;
