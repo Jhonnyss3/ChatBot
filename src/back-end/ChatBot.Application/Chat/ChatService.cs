@@ -14,11 +14,24 @@ public class ChatService : IChatService
 
     public async Task<(string response, string sessionId)> ProcessMessageAsync(string message, string? sessionId = null)
     {
-        // Se não veio sessionId, crie uma nova sessão
+        bool isNewSession = false;
+
+        // Se não veio sessionId, crie um novo
         if (string.IsNullOrEmpty(sessionId))
         {
             sessionId = Guid.NewGuid().ToString();
-            //await _sessionService.CreateSessionAsync(sessionId); // Implemente esse método se necessário
+            isNewSession = true;
+        }
+
+        // Tente obter a sessão
+        var session = await _sessionService.GetSessionIfExistsAsync(sessionId);
+
+        // Se não existe (foi removida/encerrada), crie um novo sessionId e nova sessão
+        if (session == null)
+        {
+            sessionId = Guid.NewGuid().ToString();
+            isNewSession = true;
+            session = await _sessionService.GetSessionAsync(sessionId);
         }
 
         var response = await _chatResponder.RespondAsync(message, sessionId);

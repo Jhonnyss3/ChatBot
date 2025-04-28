@@ -80,6 +80,7 @@ namespace ChatBot.Application.Services
             {
                 session.State = "encerrado";
                 response = "Eu que agradeço e espero que você tenha encontrado tudo que precisa! GO FÚRIA!";
+                await _sessionService.RemoveSessionAsync(session.SessionId); // encerra a sessão
             }
             else
             {

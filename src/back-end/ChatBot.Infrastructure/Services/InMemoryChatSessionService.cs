@@ -21,5 +21,18 @@ namespace ChatBot.Infrastructure.Services
             }
             return Task.FromResult(session);
         }
+
+        public Task RemoveSessionAsync(string sessionId)
+        {
+            _sessions.Remove(sessionId);
+            return Task.CompletedTask;
+        }
+
+        public Task<ChatSessionContext?> GetSessionIfExistsAsync(string sessionId)
+        {
+            if (_sessions.TryGetValue(sessionId, out var session))
+                return Task.FromResult<ChatSessionContext?>(session);
+            return Task.FromResult<ChatSessionContext?>(null);
+        }
     }
 }
