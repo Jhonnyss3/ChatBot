@@ -1,0 +1,18 @@
+.start-chat-btn {
+    background: #FFD700;
+    color: #000000;
+    border: none;
+    padding: 14px 36px;
+    border-radius: 24px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(255,215,0,0.2);
+    transition: all 0.2s;
+  }
+  
+  .start-chat-btn:hover {
+    box-shadow: 0 4px 24px 0 rgba(255,215,0,0.5), 0 0 0 4px #FFD70055;
+    transform: translateY(-2px) scale(1.05);
+    background: #ffe066;
+  }

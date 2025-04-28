@@ -46,4 +46,26 @@ export class AppComponent implements AfterViewChecked {
       this.chatBody.nativeElement.scrollTop = this.chatBody.nativeElement.scrollHeight;
     } catch (err) {}
   }
+
+  iniciarConversaPadrao() {
+    
+    this.mensagens = [];
+    this.sessionId = null;
+  
+    
+    const mensagemPadrao = 'Olá';
+  
+    
+    this.mensagens.push({ texto: mensagemPadrao, autor: 'user' });
+  
+    const req: UserMessageRequest = {
+      message: mensagemPadrao,
+      sessionId: this.sessionId
+    };
+  
+    this.chatbotService.sendMessage(req).subscribe((res: ChatResponseDto) => {
+      this.sessionId = res.sessionId;
+      this.mensagens.push({ texto: res.response, autor: 'bot' });
+    });
+  }
 }
