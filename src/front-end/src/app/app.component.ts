@@ -1,0 +1,40 @@
+import { Component } from '@angular/core';
+import { ChatbotService, UserMessageRequest, ChatResponseDto } from './services/chatbot.service';
+import { FormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
+
+@Component({
+  selector: 'app-root',
+  standalone: true,
+  imports: [CommonModule, FormsModule], 
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent {
+  mensagens: { texto: string, autor: 'user' | 'bot' }[] = [
+    
+  ];
+  textoUsuario: string = '';
+  sessionId: string | null = null;
+
+  constructor(private chatbotService: ChatbotService) {}
+
+  enviarMensagem() {
+    if (!this.textoUsuario.trim()) return;
+
+    
+    this.mensagens.push({ texto: this.textoUsuario, autor: 'user' });
+
+    const req: UserMessageRequest = {
+      message: this.textoUsuario,
+      sessionId: this.sessionId
+    };
+
+    this.textoUsuario = '';
+
+    this.chatbotService.sendMessage(req).subscribe((res: ChatResponseDto) => {
+      this.sessionId = res.sessionId;
+      this.mensagens.push({ texto: res.response, autor: 'bot' });
+    });
+  }
+}

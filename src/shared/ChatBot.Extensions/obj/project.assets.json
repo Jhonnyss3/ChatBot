@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\projects\\ChatBot.Extensions\\ChatBot.Extensions.csproj",
+      "projectUniqueName": "C:\\projects\\src\\shared\\ChatBot.Extensions\\ChatBot.Extensions.csproj",
       "projectName": "ChatBot.Extensions",
-      "projectPath": "C:\\projects\\ChatBot.Extensions\\ChatBot.Extensions.csproj",
+      "projectPath": "C:\\projects\\src\\shared\\ChatBot.Extensions\\ChatBot.Extensions.csproj",
       "packagesPath": "C:\\Users\\joaop\\.nuget\\packages\\",
-      "outputPath": "C:\\projects\\ChatBot.Extensions\\obj\\",
+      "outputPath": "C:\\projects\\src\\shared\\ChatBot.Extensions\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

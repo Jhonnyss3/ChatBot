@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projects\\ChatBot.Exceptions\\ChatBot.Exceptions.csproj": {}
+    "C:\\projects\\src\\shared\\ChatBot.Exceptions\\ChatBot.Exceptions.csproj": {}
   },
   "projects": {
-    "C:\\projects\\ChatBot.Exceptions\\ChatBot.Exceptions.csproj": {
+    "C:\\projects\\src\\shared\\ChatBot.Exceptions\\ChatBot.Exceptions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\ChatBot.Exceptions\\ChatBot.Exceptions.csproj",
+        "projectUniqueName": "C:\\projects\\src\\shared\\ChatBot.Exceptions\\ChatBot.Exceptions.csproj",
         "projectName": "ChatBot.Exceptions",
-        "projectPath": "C:\\projects\\ChatBot.Exceptions\\ChatBot.Exceptions.csproj",
+        "projectPath": "C:\\projects\\src\\shared\\ChatBot.Exceptions\\ChatBot.Exceptions.csproj",
         "packagesPath": "C:\\Users\\joaop\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\ChatBot.Exceptions\\obj\\",
+        "outputPath": "C:\\projects\\src\\shared\\ChatBot.Exceptions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
