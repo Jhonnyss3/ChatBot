@@ -1,8 +1,4 @@
-﻿using System;
-using System.Threading.Tasks;
-using ChatBot.Domain.Models;
-using ChatBot.Domain.Entities;
-using ChatBot.Domain.Interfaces;
+﻿using ChatBot.Domain.Interfaces;
 
 namespace ChatBot.Application.Services
 {

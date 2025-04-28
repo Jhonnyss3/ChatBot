@@ -1,7 +1,6 @@
 using ChatBot.Application.Services;
 using ChatBot.Application.Chat;
 using ChatBot.Domain.Interfaces;
-using ChatBot.Infrastructure.ChatResponder;
 using ChatBot.Infrastructure.Services;
 
 var builder = WebApplication.CreateBuilder(args);

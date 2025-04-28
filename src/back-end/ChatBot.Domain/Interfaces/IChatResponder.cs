@@ -1,7 +1,4 @@
-﻿using System.Threading.Tasks;
-using ChatBot.Domain.Models;
-
-namespace ChatBot.Domain.Interfaces
+﻿namespace ChatBot.Domain.Interfaces
 {
     public interface IChatResponder
     {
