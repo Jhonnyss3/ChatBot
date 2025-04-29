@@ -1,31 +1,31 @@
 <!-- Wrapper principal -->
-<div style="display: flex; flex-direction: row; align-items: center; justify-content: center; min-height: 100vh; background: linear-gradient(135deg, #cca500 40%, #232323 20%); font-family: 'Roboto', Arial, sans-serif;">
+<div class="wrapper">
   <!-- Chat Preview -->
-  <div style="background: #FFFFFF; border-radius: 32px; box-shadow: 0 8px 32px 4px rgba(0,0,0,0.18), 0 0 0 6px #FFD700; width: 340px; height: 640px; display: flex; flex-direction: column; overflow: hidden; margin-right: 48px; border: 1.5px solid #212121;">
+  <div class="chat-container">
     <!-- Header com espaço circular para logo e nome Pantera alinhados à esquerda -->
-    <div style="background: #000000; color: #FFFFFF; padding: 16px 0 12px 0; display: flex; align-items: center; justify-content: flex-start; gap: 12px;">
+    <div class="chat-header">
       <img
         src="logo.png"
         alt="Logo Pantera"
-        style="height: 48px; width: 48px; border-radius: 50%; background: #fff; border: 2.5px solid #FFD700; display: flex; align-items: center; justify-content: center; margin-left: 18px; object-fit: cover;"
+        class="chat-logo"
       />
-      <span style="color: #FFFFFF; font-size: 1.25rem; font-weight: bold; letter-spacing: 1px;">Pantera</span>
+      <span class="chat-title">Pantera</span>
     </div>
     <!-- Chat Body dinâmico -->
-    <div #chatBody style="flex: 1; padding: 20px 14px 12px 14px; display: flex; flex-direction: column; gap: 18px; background: #FFFFFF; overflow-y: auto;">
+    <div #chatBody class="chat-body">
       <ng-container *ngFor="let msg of mensagens">
         <div
           [ngStyle]="msg.autor === 'user'
           ? {'align-self': 'flex-end', 'background': '#FFD700', 'color': '#212121', 'border-radius': '18px 18px 6px 18px', 'box-shadow': '0 4px 16px 0 rgba(35,35,35,0.18)', 'border': '1.5px solid #232323'}
           : {'align-self': 'flex-start', 'background': '#212121', 'color': '#FFFFFF', 'border-radius': '18px 18px 18px 6px', 'box-shadow': '0 4px 16px 0 rgba(35,35,35,0.25)', 'border': '1.5px solid #FFD700'}"
-          style="padding: 12px 18px; font-size: 1.05rem; max-width: 80%;"
+          class="chat-message"
           [innerHTML]="msg.autor === 'bot' ? formatarMensagem(msg.texto) : msg.texto"
         >
         </div>
       </ng-container>
     </div>
     <!-- Chat Input -->
-    <form (ngSubmit)="enviarMensagem()" style="display: flex; align-items: center; padding: 14px; background: #FFFFFF; border-top: 1px solid rgba(0,0,0,0.1);">
+    <form (ngSubmit)="enviarMensagem()" class="chat-input-form">
       <input
         type="text"
         placeholder="Digite sua mensagem..."
@@ -33,7 +33,7 @@
         name="mensagem"
         required
         autocomplete="off"
-        style="flex: 1; border: 2px solid #000000; outline: none; padding: 12px 16px; border-radius: 20px; background: #FFFFFF; font-size: 1rem; margin-right: 10px; color: #000000;"
+        class="chat-input"
       />
       <button
         type="submit"
@@ -45,10 +45,10 @@
     </form>
   </div>
   <!-- Landing Info ao lado -->
-  <div style="max-width: 340px; text-align: left;">
-    <h1 style="font-size: 2rem; margin-bottom: 12px; color: #FFFFFF; font-weight: 700;">Bem-vindo ao Pantera Chatbot!</h1>
-    <p style="font-size: 1.3rem; margin-bottom: 18px; color: #FFD700; font-weight: bold; letter-spacing: 1px;">#GOFURIA!</p>
-    <p style="font-size: 1.08rem; margin-bottom: 22px; color: #FFFFFF;">
+  <div class="landing-container">
+    <h1 class="landing-title">Bem-vindo ao Pantera Chatbot!</h1>
+    <p class="landing-hashtag">#GOFURIA!</p>
+    <p class="landing-desc">
       Somos FURIA. Uma organização de esports que nasceu do desejo de representar o Brasil no CS e conquistou muito mais que isso: expandimos nossas ligas, disputamos os principais títulos, adotamos novos objetivos e ganhamos um propósito maior. Somos muito mais que o sucesso competitivo.<br><br>
       <span style="color: #FFFFFF; font-weight: bold;">Somos um movimento sociocultural.</span>
     </p>
