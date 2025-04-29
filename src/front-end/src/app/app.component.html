@@ -1,7 +1,7 @@
 <!-- Wrapper principal -->
-<div style="display: flex; flex-direction: row; align-items: center; justify-content: center; min-height: 100vh; background: linear-gradient(135deg, #232323 0%, #232323 60%, #FFD700 75%, #FFFFFF 100%); font-family: 'Roboto', Arial, sans-serif;">
+<div style="display: flex; flex-direction: row; align-items: center; justify-content: center; min-height: 100vh; background: linear-gradient(135deg, #cca500 40%, #232323 20%); font-family: 'Roboto', Arial, sans-serif;">
   <!-- Chat Preview -->
-  <div style="background: #FFFFFF; border-radius: 32px; box-shadow: 0 8px 32px 4px rgba(0,0,0,0.18), 0 0 0 6px #FFD70033; width: 340px; height: 640px; display: flex; flex-direction: column; overflow: hidden; margin-right: 48px; border: 1.5px solid #FFD700;">
+  <div style="background: #FFFFFF; border-radius: 32px; box-shadow: 0 8px 32px 4px rgba(0,0,0,0.18), 0 0 0 6px #FFD700; width: 340px; height: 640px; display: flex; flex-direction: column; overflow: hidden; margin-right: 48px; border: 1.5px solid #212121;">
     <!-- Header com espaço circular para logo e nome Pantera alinhados à esquerda -->
     <div style="background: #000000; color: #FFFFFF; padding: 16px 0 12px 0; display: flex; align-items: center; justify-content: flex-start; gap: 12px;">
       <img
@@ -16,11 +16,11 @@
       <ng-container *ngFor="let msg of mensagens">
         <div
           [ngStyle]="msg.autor === 'user'
-            ? {'align-self': 'flex-end', 'background': '#FFD700', 'color': '#000000', 'border-radius': '18px 18px 6px 18px', 'box-shadow': '0 4px 16px 0 rgba(35,35,35,0.18)', 'border': '1.5px solid #232323'}
-            : {'align-self': 'flex-start', 'background': '#000000', 'color': '#FFFFFF', 'border-radius': '18px 18px 18px 6px', 'box-shadow': '0 4px 16px 0 rgba(35,35,35,0.25)', 'border': '1.5px solid #FFD700'}"
+          ? {'align-self': 'flex-end', 'background': '#FFD700', 'color': '#212121', 'border-radius': '18px 18px 6px 18px', 'box-shadow': '0 4px 16px 0 rgba(35,35,35,0.18)', 'border': '1.5px solid #232323'}
+          : {'align-self': 'flex-start', 'background': '#212121', 'color': '#FFFFFF', 'border-radius': '18px 18px 18px 6px', 'box-shadow': '0 4px 16px 0 rgba(35,35,35,0.25)', 'border': '1.5px solid #FFD700'}"
           style="padding: 12px 18px; font-size: 1.05rem; max-width: 80%;"
+          [innerHTML]="msg.autor === 'bot' ? formatarMensagem(msg.texto) : msg.texto"
         >
-          {{ msg.texto }}
         </div>
       </ng-container>
     </div>

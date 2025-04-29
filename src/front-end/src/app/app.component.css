@@ -43,3 +43,20 @@
     transform: translateY(-2px) scale(1.08);
     background: #ffe066;
   }
+
+  .chat-option {
+    color: #FFD700;
+    font-weight: bold;
+    background: #232323;
+    padding: 2px 6px;
+    border-radius: 8px;
+    margin: 0 2px;
+    display: inline-block;
+    box-shadow: 0 1px 4px 0 rgba(255,215,0,0.15);
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .chat-option:hover {
+    background: #FFD700;
+    color: #232323;
+  }

@@ -70,4 +70,28 @@ export class AppComponent implements AfterViewChecked {
       this.mensagens.push({ texto: res.response, autor: 'bot' });
     });
   }
+
+  // Lista de opções a destacar
+  OPCOES_CHAT = [
+    'Nossa história',
+    'Nossos jogadores',
+    'Nossas redes sociais',
+    'Onde assisto a Furia?',
+    'Onde compro materiais oficiais da Fúria?',
+    'Valeu Pantera'
+  ];
+
+formatarMensagem(texto: string): string {
+  let textoFormatado = texto;
+  this.OPCOES_CHAT.forEach(opcao => {
+    // Regex para destacar a opção, escapando caracteres especiais
+    const regex = new RegExp(opcao.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g');
+    textoFormatado = textoFormatado.replace(
+      regex,
+      `<span class="chat-option">${opcao}</span>`
+    );
+  });
+  // Opcional: tratar quebras de linha
+  return textoFormatado.replace(/\n/g, '<br>');
+}
 }
