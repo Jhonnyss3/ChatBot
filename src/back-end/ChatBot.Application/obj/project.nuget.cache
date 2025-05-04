@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "3sqWkWHFUz4=",
+  "dgSpecHash": "3Pa4aGVk7K0=",
   "success": true,
   "projectFilePath": "C:\\projects\\src\\back-end\\ChatBot.Application\\ChatBot.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\joaop\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.203\\microsoft.net.sdk.compilers.toolset.9.0.203.nupkg.sha512"
+  ],
   "logs": []
 }
